@@ -1,0 +1,154 @@
+body{
+		margin:0;
+		font-family: arial;
+		background: linear-gradient(to right, #283146, #2b4070);
+		}
+		
+.topnav{
+		background-color: #3b4f7e;
+		overflow: hidden;
+		position: static;
+		}
+		
+.topnav a{
+			margin-top: 7px;
+			float: right;
+			color: #dfdfdf;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 15px;
+			
+			}
+
+.topnav a:hover{
+					color: #6986c9;	
+					}
+
+
+.topnav h3.name{
+					float: left;
+					padding-left: 50px;
+					color: #6986c9;
+					font-weight: bolder;
+					}
+					
+					
+					
+.app{
+			background:#314269;
+			width:40%;
+			height: 550px;
+			border-radius: 10px;
+			text-align: left;
+			margin: 10px;
+			float:left;
+			}
+			
+			
+.app img.logo{height: 120px;
+							width: 120px;
+
+
+}
+				
+.app p.subt{
+				font-weight: bold;
+				color: #6986c9;
+				font-size: 16pt;
+						
+				 }
+						 
+						 				 
+.app blockquote{							
+							
+							color: lightgrey;
+							}
+
+
+
+.card{	
+			background:#314269;
+			width:55%;
+			float: left;
+			height: 550px;
+			border-radius: 10px;
+			text-align: left;
+			margin: 10px;
+			
+			}
+
+
+
+
+.card .pack1{ 
+				width: 46%;
+				height: 46%;
+				background: #52699d;
+				float: left;
+				margin: 10px;	
+				border-radius: 10px;		
+		}
+
+.card .pack2{ 
+				width: 46%;
+				height: 46%;
+				background: #52699d;
+				float: left;
+				margin: 10px;	
+				border-radius: 10px;		
+		}
+		
+
+.card .pack3{ 
+				width: 46%;
+				height: 46%;
+				background: #52699d;
+				float: left;
+				margin: 10px;	
+				border-radius: 10px;		
+		}
+
+.card .pack4{ 
+				width: 46%;
+				height: 46%;
+				background: #52699d;
+				float: left;
+				margin: 10px;	
+				border-radius: 10px;
+					
+		}
+
+
+
+
+		 .pic1{ 
+				width: 150px;
+				height: 150px;
+				border-radius: 100%;
+				background: yellow;
+				
+									
+		}
+
+
+.names{ font-size: 13pt;
+			color: white;
+			text-align: center;
+			
+}
+
+
+.other{ font-size: 10pt;
+			color: #99a7eb;
+			text-align: center;
+			margin-top: 0;
+					
+}
+
+
+
+
+
+
+

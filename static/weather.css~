@@ -1,0 +1,112 @@
+body{
+		margin:0;
+		font-family: arial;
+		background: url(../static/image/down.gif);
+		background-repeat: no-repeat;
+		background-size: 100% 700px;
+		}
+		
+.topnav{
+		background-color: #3b4f7e;
+		overflow: hidden;
+		position: static;
+		}
+		
+.topnav a{
+			margin-top: 7px;
+			float: right;
+			color: #dfdfdf;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 15px;
+			
+			}
+
+.topnav a:hover{
+					color: #6986c9;	
+					}
+
+
+.topnav h3.name{
+					float: left;
+					padding-left: 50px;
+					color: #6986c9;
+					font-weight: bolder;
+					}
+					
+					
+					
+.container{
+			margin-left: 470px;
+			border-radius: 30px;
+			background: rgba(0, 1, 0, 0.3);
+			width: 340px;
+			height: 400px;	
+			text-align: center;		
+			}
+
+
+.container form.form1{
+							text-align: center;							
+							}
+
+
+img.logo{
+			width:150px;
+			height:150px;
+			margin-top: 30px;}
+
+							
+							
+input.city{
+			 border-radius: 20px;
+			 margin-top: 0;
+			 width: 250px;
+			 height: 40px;
+			 border-style: none;
+			 color: #3b4f7e;
+			 font-size: 12pt;
+			 text-align: center;				
+			}
+			
+			
+			
+input.country{
+			 border-radius: 20px;
+			 margin-top: 20px;
+			 width: 250px;
+			 height: 40px;
+			 border-style: none;
+			 color: #3b4f7e;
+			 font-size: 12pt;
+			 text-align: center;				
+			}
+			
+			
+
+button.btn{
+			 border-radius: 20px;
+			 margin-top: 20px;
+			 width: 250px;
+			 height: 40px;
+			 border-style: none;
+			 color: #dfdfdf;
+			 font-size: 12pt;
+			 text-align: center;
+			 background: linear-gradient(to right, #ffad39, #ff225b);	
+			 			
+			}
+
+
+button.btn:hover{
+						
+						background: linear-gradient(to left, #ffad39 ,#b200b0);						
+						}
+
+
+
+
+
+
+

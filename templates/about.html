@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+
+<head>
+<title>home</title>
+<meta charset="UTF-8">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta name="viewpoint" content="width-device-width, initial-scale=1">
+<link href="{{ url_for('static', filename='about.css') }}" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+
+	<div class="topnav">
+		<h3 class="name">ONLINE WEATHER STATION</h3>
+		<a href="{{ url_for('weather') }}">WEATHER</a>
+		<a href="{{ url_for('index') }}">HOME</a>
+	</div>
+	
+	
+	<div class = "app">
+		<blockquote> <p class ="subt">WHY WEATHER STATION WEB APPLICATION?</p></blockquote>
+		<p class="detail"><blockquote>There are several reasons why weather forecasts are important. 
+												They would certainly be missed if they were not there. 
+												It is a product of science that impacts the lives of many people. 
+												The following is a list of various reasons why weather forecasts are important: </blockquote></p>
+	<blockquote><ul>
+	<li>Helps people prepare for how to dress (i.e. warm weather, cold weather, windy weather, rainy weather)</li><br>
+	<li>Helps businesses and people plan for power production and how much power to use (i.e. power companies, where to set thermostat)</li><br>
+	<li>Helps people prepare if they need to take extra gear to prepare for the weather (i.e. umbrella, rain coat, sun screen)</li><br>
+	<li>Helps people plan outdoor activities (i.e. to see if rain/storms/cold weather will impact outdoor event)</li><br>
+	<li>Helps curious people to know what sort of weather can be expected (i.e. a snow on the way, severe storms)</li>
+	</ul></blockquote>
+	</div>
+	
+	
+	<div class = "card">
+	
+		<div class = "pack1">
+			<img>
+			<center><img class = "pic1" src="../static/image/inno.jpg" alt="innocent"></center>
+			<p class="names">Innocent Fiadu</p>
+			<p class="other">Back-End Developer</p>
+			<p class="other"></p>
+		</div>
+		
+		<div class="pack2">
+			<img>
+			<center><img class = "pic1" src="../static/image/sage.jpg" alt="Sage"></center>
+			<p class="names">Dim Arinze </p>
+			<p class="other">Programme Integrator</p>
+		</div>
+		
+		<div class="pack3">
+			<img>
+			<center><img class = "pic1" src="../static/image/naa.jpg" alt="naa"></center>
+			<p class="names">Trudy Akotiah</p>
+			<p class="other">Front-End Developer </p>
+		</div>
+	
+		<div class="pack4">
+			<img>
+			<center><img class = "pic1" src="../static/image/emma.jpg" alt="emma"></center>
+			<p class="names">Emmanuel Bonsu</p>
+			<p class="other">Front-End Developer</p>
+		</div>
+	
+	</div>	
+	
+	
+	
+</body>
+
+
+
+</html>
